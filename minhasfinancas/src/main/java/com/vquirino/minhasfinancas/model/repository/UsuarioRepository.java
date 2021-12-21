@@ -1,5 +1,7 @@
 package com.vquirino.minhasfinancas.model.repository;
 
+import java.util.Optional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.vquirino.minhasfinancas.model.entity.Usuario;

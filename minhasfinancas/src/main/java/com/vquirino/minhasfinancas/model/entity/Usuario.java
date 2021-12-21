@@ -9,7 +9,6 @@ import javax.persistence.Table;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.Setter;
 
 @Entity
 @Table(name = "usuario", schema = "financas")
