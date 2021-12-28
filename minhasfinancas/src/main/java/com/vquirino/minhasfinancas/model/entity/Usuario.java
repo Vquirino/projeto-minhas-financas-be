@@ -7,14 +7,17 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.Setter;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "usuario", schema = "financas")
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Usuario {
 
 	@Id
