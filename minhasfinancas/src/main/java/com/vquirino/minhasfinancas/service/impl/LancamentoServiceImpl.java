@@ -85,7 +85,7 @@ public class LancamentoServiceImpl implements LancamentoService{
 		}
 		
 		if(lancamento.getUsuario() == null || lancamento.getUsuario().getId() == null) {
-			throw new RegraNegocioException("Informe um Usuario.");
+			throw new RegraNegocioException("Informe um Usuário.");
 		}
 		
 		//COMO O ATRIBUTO É UM BigDecimal TEM QUE USAR O METODO compareTo
