@@ -108,7 +108,9 @@ public class UsuarioServiceTest {
 		Throwable exception = Assertions.catchThrowable( () -> service.autenticar("email@email.com", "123") );
 		
 		//VERIFICAÇÃO
-		Assertions.assertThat(exception).isInstanceOf(ErroAutenticacao.class).hasMessage("Senha inválida.");
+		Assertions.assertThat(exception)
+			.isInstanceOf(ErroAutenticacao.class)
+			.hasMessage("Senha inválida.");
 		
 	}
 	
